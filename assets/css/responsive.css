@@ -1,0 +1,289 @@
+@media (min-width: 1200px) {
+   
+}
+@media (min-width: 1366px) {
+    
+}
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+@media (min-width: 1580px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+@media (min-width: 1680px) {
+    
+}
+
+/* max width  */
+@media (max-width: 1680px) {
+   
+}
+
+@media (max-width: 1440px) {
+    .banner-area .banner-content h1 {
+        font-size: 180px;
+    }
+    .banner-area .banner-thumb {
+        margin-left: -50px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .progress-area .circle h4 {
+        font-size: 36px;
+    }
+    .featured-inner .featured-content h2 {
+        font-size: 42px;
+    }
+    .featured-inner .featured-content ul li {
+        font-size: 22px;
+    }
+    .featured-inner .featured-content .inline-btn a {
+        font-size: 22px;
+    }
+    .featured-inner .featured-content .inline-btn a i {
+        height: 30px;
+        width: 30px;
+        font-size: 18px;
+    }
+    .contact-form h3 {
+        font-size: 36px;
+    }
+    input {
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 58px;
+    }
+    .contact-form .form-group button {
+        left: 11px;
+        top: 11px;
+        line-height: 38px;
+        padding: 0 20px;
+    }
+    
+}
+
+@media (max-width: 1366px) {
+    .banner-area .banner-shape1 {
+        height: 340px;
+    }
+
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1199px) {
+    .header-area {
+        background: transparent;
+        padding: 5px 0;
+    }
+    .sticky-wrapper.is-sticky .header-area {
+        padding: 5px 0;
+    }
+    .header-area.active {
+        background: #000023;
+    }
+    .header-area .navbar .navbar-collapse {
+        margin-top: 0;
+    }
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+        background: #4C27E0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+    .navbar-toggler span:last-child {
+        margin-bottom: 0;
+    }
+    .navbar-toggler[aria-expanded=false] span:nth-child(2) {
+        opacity: 1;
+    }
+    .navbar-toggler[aria-expanded=true] span:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar-toggler[aria-expanded=true] span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+    }
+    .navbar-toggler[aria-expanded=true] span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+    }
+    .header-area .navbar .navbar-nav .nav-item {
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        border-bottom: 1px solid #dddddd3b;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    .header-area .navbar .navbar-nav .nav-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .header-area .navbar .header-btns li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .header-btn-wrap {
+        text-align: center;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        line-height: 30px;
+    }
+    .sticky-wrapper.is-sticky .header-area .navbar .navbar-nav .nav-item a {
+        line-height: 30px;
+    }
+    .header-btn.navbar-nav {
+        justify-content: center;
+        display: flex;
+    }
+    .header-btn.navbar-nav li {
+        text-align: center;
+    }
+    .header-area .navbar .container {
+        border-bottom: none;
+        padding: 0 15px;
+    }
+    .sticky-wrapper.is-sticky .header-area .navbar .container {
+        padding: 0 15px;
+    }
+    .header-area .navbar .header-btn-wrap .primary-btn {
+        min-width: 200px;
+    }
+    .shape {
+        display: none;
+    }
+    .banner-area .banner-content h1 {
+        font-size: 120px;
+    }
+    .banner-area .banner-content ul li {
+        font-size: 20px;
+        padding-right: 30px;
+    }
+    .banner-area .banner-content ul li img {
+        top: 9px;
+    }
+    .banner-area .banner-content ul li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .primary-btn {
+        padding: 12px 35px;
+        font-size: 18px;
+    }
+    .featured-inner .featured-content h2 {
+        font-size: 32px;
+    }
+    .featured-inner .featured-content {
+        margin-top: 20px;
+    }
+    .featured-inner:before {
+        height: 260px;
+        width: 260px;
+    }
+    .featured-inner .featured-thumb .social-content h3 {
+        font-size: 28px;
+    }
+    .header-area .navbar .navbar-nav .nav-item {
+       color: #fff;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .banner-area .banner-thumb .float-text1 {
+        max-width: 200px;
+    }
+    .banner-area .banner-thumb .float-text2 {
+        max-width: 200px;
+    }
+    .banner-area .banner-content h1 {
+        font-size: 100px;
+    }
+    .banner-area {
+        padding: 90px 0 0;
+    }
+    .header-area .navbar .navbar-brand img {
+        max-width: 150px;
+    }
+    .progress-area .section-title {
+        margin-bottom: 50px;
+    }
+    .progress-area {
+        padding-bottom: 80px;
+    }
+    .featured-thumb .thumb {
+        left: -25px;
+        position: relative;
+    }
+    .contact-thumb {
+        text-align: right;
+    }
+    .featured-inner {
+        padding: 25px 25px 30px;
+    }
+    .featured-inner .featured-thumb .social-wrap {
+        position: initial;
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-inner .featured-content ul li {
+        font-size: 18px;
+    }
+    .banner-area .banner-thumb {
+        margin-left: 0;
+        text-align: center;
+    }
+    .banner-area .banner-thumb .thumb {
+        max-width: 280px;
+    }
+    .banner-area {
+        padding: 70px 0 50px;
+    }
+    .banner-area .banner-thumb .float-text1 {
+        left: 50%;
+    }
+    .banner-area .banner-thumb .float-text2 {
+        left: 48%;
+    }
+}
+
+@media (max-width: 575px) {
+    
+}
+
+@media (max-width: 425px) {
+   
+}
+
+@media (max-width: 375px) {
+    
+}

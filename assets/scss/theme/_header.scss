@@ -1,0 +1,58 @@
+/* Start Header area style
+============================================================================================ */
+.sticky-wrapper {
+    position: absolute;
+    width: 100%;
+    &.is-sticky {
+        .header-area {
+            background: $white;
+            box-shadow: 0 5px 10px #2a27271a;
+            .navbar {
+                
+            }
+        }
+    }
+}
+
+.header-area {
+    position: absolute;
+    z-index: 999;
+    @include transition();
+    background: transparent;
+    width: 100%;
+    padding: 5px 0;
+    top: 0;
+    .navbar-brand {
+        margin-bottom: 0;
+        margin-right: 0;
+        img {
+            @include transition();
+        }
+    }
+    &.active {
+        box-shadow: 0 5px 10px #2a27271a;
+    }
+    .navbar {
+        background: transparent;
+        padding: 0px;
+        border: 0px;
+        border-radius: 0px;
+        .navbar-brand {
+            display: block;
+            @include transition();
+        }
+        .navbar-nav {
+            .nav-item {
+                font-size: 24px;
+                color: $primary-color2;
+            }
+        }
+        .header-btn-wrap {
+            .primary-btn {
+                font-size: 20px;
+                padding: 13px 20px;
+                border-radius: 22px;
+            }
+        }
+    }
+}

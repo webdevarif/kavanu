@@ -1,0 +1,70 @@
+/* banner area style
+============================================================================================ */
+.banner-area {
+    position: relative;
+    padding: 55px 0 0;
+    z-index: 2;
+    overflow: hidden;
+    .banner-shape1 {
+      bottom: 0;
+      left: 0;
+      height: 500px;
+    }
+    .shape.banner-shape2 {
+      left: -40px;
+      top: 15%;
+    }
+    .shape.banner-shape3 {
+      top: 23%;
+      right: -40px;
+    }
+    .shape.banner-shape4 {
+      position: absolute;
+      left: 2%;
+      bottom: 17%;
+  }
+    .banner-thumb {
+      margin-left: -150px;
+      position: relative;
+      z-index: 1;
+      .float-text1 {
+        position: absolute;
+        left: 64%;
+        top: 14%;
+      }
+      .float-text2 {
+        position: absolute;
+        left: 64%;
+        bottom: 9%;
+      }
+    }
+    .banner-content {
+        h1 {
+            font-size: 250px;
+            color: #C764EE;
+            margin-bottom: 15px;
+            font-family: 'Calibri';
+            line-height: 1;
+            span {
+              color: $primary-color;
+            }
+        }
+        ul {
+          margin-bottom: 30px;
+          li {
+            font-size: 24px;
+            position: relative;
+            padding-right: 40px;
+            &:not(:last-child) {
+              margin-bottom: 15px;
+            }
+            img {
+              position: absolute;
+              right: 0;
+              top: 11px;
+            }
+          }
+        }
+        
+    }
+}
