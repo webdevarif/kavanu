@@ -84,11 +84,19 @@
 	z-index: 1;
 	.dot-ring {
 		right: 7%;
-		top: -13%;
+		top: 6%;
 	}
 	.ring {
 		bottom: 0;
 		left: 0;
+	}
+	.section-title {
+		h2 {
+			font-weight: 400;
+			span {
+				font-weight: 700;
+			}
+		}
 	}
 }
 .featured-inner {
@@ -171,6 +179,7 @@
 					background: $white;
 					color: $primary-color;
 					margin-left: 15px;
+					margin-top: 8px;
 				}
 			}
 		}

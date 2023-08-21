@@ -67,9 +67,9 @@ function updateTimer() {
 	
 	document.getElementById("timer")
 		.innerHTML =
-		'<div>' + d + '<span> ימים</span></div>' +
-		'<div>' + h + '<span> שעה (ות</span></div>' +
-		'<div>' + m + '<span> דקות</span></div>' +
-		'<div>' + s + '<span> שניות</span></div>' ;
+		'<div>' + '<div>' + s + '</div>' + '<span> שניות</span></div>' +
+		'<div>' + '<div>' + m + '</div>' + '<span> דקות</span></div>' +
+		'<div>' + '<div>' + h + '</div>' + '<span> שעה (ות</span></div>' +
+		'<div>' + '<div>' + d + '</div>' + '<span> ימים</span></div>' ;
 }
 setInterval('updateTimer()', 1000 );

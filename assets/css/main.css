@@ -313,16 +313,39 @@ img {
       transition: all 0.3s ease 0s; }
     .header-area .navbar .navbar-nav .nav-item {
       font-size: 24px;
-      color: #4C27E0;
+      color: #ffffff;
       display: flex;
-      gap: 5px; }
+      gap: 20px; }
+      .header-area .navbar .navbar-nav .nav-item .primary-btn {
+        font-size: 20px;
+        padding: 6px 20px;
+        border-radius: 22px;
+        background: #E9B4FE;
+        color: #BB17FC; }
       .header-area .navbar .navbar-nav .nav-item #timer {
         display: flex;
         gap: 8px; }
-    .header-area .navbar .header-btn-wrap .primary-btn {
-      font-size: 20px;
-      padding: 13px 20px;
-      border-radius: 22px; }
+        .header-area .navbar .navbar-nav .nav-item #timer div {
+          display: block;
+          text-align: center; }
+          .header-area .navbar .navbar-nav .nav-item #timer div div {
+            background: url(../img/count-bg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 60px;
+            height: 50px;
+            border-radius: 3px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5px;
+            font-family: 'Share Tech', sans-serif;
+            font-size: 30px; }
+          .header-area .navbar .navbar-nav .nav-item #timer div span {
+            color: #4C27E0;
+            display: block;
+            font-size: 9px; }
 
 /* banner area style
 ============================================================================================ */
@@ -457,10 +480,14 @@ img {
   z-index: 1; }
   .featured-area .dot-ring {
     right: 7%;
-    top: -13%; }
+    top: 6%; }
   .featured-area .ring {
     bottom: 0;
     left: 0; }
+  .featured-area .section-title h2 {
+    font-weight: 400; }
+    .featured-area .section-title h2 span {
+      font-weight: 700; }
 
 .featured-inner {
   background: #4C27E0;
@@ -527,7 +554,8 @@ img {
           justify-content: center;
           background: #ffffff;
           color: #BB17FC;
-          margin-left: 15px; }
+          margin-left: 15px;
+          margin-top: 8px; }
 
 /* contact area style
 ============================================================================================ */

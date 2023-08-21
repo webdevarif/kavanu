@@ -88,7 +88,7 @@
         padding: 5px 0;
     }
     .header-area.active {
-        background: #000023;
+        background: #FFFFFF;
     }
     .header-area .navbar .navbar-collapse {
         margin-top: 0;
@@ -137,6 +137,7 @@
     .header-area .navbar .navbar-nav .nav-item {
         margin-right: 0;
         text-align: center;
+        justify-content: center;
     }
     .header-area .navbar .navbar-nav .nav-item a {
         border-bottom: 1px solid #dddddd3b;
@@ -291,7 +292,12 @@
 }
 
 @media (max-width: 575px) {
-    
+    .header-area .navbar .navbar-nav .nav-item {
+        flex-direction: column;
+    }
+    .header-area .navbar .navbar-nav .nav-item #timer {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 425px) {

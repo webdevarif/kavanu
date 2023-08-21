@@ -44,20 +44,44 @@
         .navbar-nav {
             .nav-item {
                 font-size: 24px;
-                color: $primary-color2;
+                color: $white;
                 display: flex;
-                gap: 5px;
+                gap: 20px;
+                .primary-btn {
+                    font-size: 20px;
+                    padding: 6px 20px;
+                    border-radius: 22px;
+                    background: #E9B4FE;
+                    color: $primary-color;
+                }
                 #timer {
                     display: flex;
                     gap: 8px;
+                    div {
+                        display: block;
+                        text-align: center;
+                        div {
+                            background: url(../img/count-bg.png);
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                            width: 60px;
+                            height: 50px;
+                            border-radius: 3px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-bottom: 5px;
+                            font-family: 'Share Tech', sans-serif;
+                            font-size: 30px;
+                        }
+                        span {
+                            color: $primary-color2;
+                            display: block;
+                            font-size: 9px;
+                        }
+                    }
                 }
-            }
-        }
-        .header-btn-wrap {
-            .primary-btn {
-                font-size: 20px;
-                padding: 13px 20px;
-                border-radius: 22px;
             }
         }
     }
