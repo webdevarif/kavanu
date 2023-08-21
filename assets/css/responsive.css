@@ -44,6 +44,9 @@
     }
     .featured-inner .featured-content .inline-btn a {
         font-size: 22px;
+        height: 250px;
+        width: 250px;
+        padding-top: 65px;
     }
     .featured-inner .featured-content .inline-btn a i {
         height: 30px;
@@ -198,6 +201,17 @@
         padding: 12px 35px;
         font-size: 18px;
     }
+    .banner-area .banner-content .primary-btn {
+        min-width: 300px;
+        position: relative;
+        z-index: 1;
+    }
+    .banner-area .banner-content .primary-btn .mic {
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+        max-width: 50px;
+    }
     .featured-inner .featured-content h2 {
         font-size: 32px;
     }
@@ -228,7 +242,7 @@
         font-size: 100px;
     }
     .banner-area {
-        padding: 90px 0 0;
+        padding: 90px 0 50px;
     }
     .header-area .navbar .navbar-brand img {
         max-width: 150px;
@@ -281,7 +295,9 @@
 }
 
 @media (max-width: 425px) {
-   
+    .featured-inner .featured-content ul {
+        margin-bottom: 130px;
+    }
 }
 
 @media (max-width: 375px) {

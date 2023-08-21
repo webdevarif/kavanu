@@ -108,9 +108,9 @@ input {
     border-radius: 30px;
     width: 100%;
     padding: 0 30px;
-    color: $title-color;
+    color: #A59797;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 78px;
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.04);
 
@@ -125,13 +125,13 @@ textarea {
     border-radius: 0;
     width: 100%;
     padding: 0 0 21px 0;
-    color: $title-color;
+    color: #A59797;
     font-size: 18px;
     font-weight: 500;
 }
 
 input::placeholder, textarea::placeholder {
-    color: $text-color;
+    color: #A59797;
     font-weight: 400;
 }
 
