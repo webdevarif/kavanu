@@ -67,17 +67,28 @@
         line-height: 38px;
         padding: 0 20px;
     }
-    
+    .banner-area {
+        padding: 80px 0 0;
+    }
 }
 
 @media (max-width: 1366px) {
     .banner-area .banner-shape1 {
         height: 340px;
     }
-
+    .banner-area {
+        padding: 120px 0 0;
+    }
+    .sms-box.column2 {
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .progress-area:before {
+        top: 37%;
+    }
+}
 
 @media (max-width: 1199px) {
     .header-area {
@@ -174,10 +185,10 @@
     }
     .header-area .navbar .container {
         border-bottom: none;
-        padding: 0 15px;
+        padding: 0 20px;
     }
     .sticky-wrapper.is-sticky .header-area .navbar .container {
-        padding: 0 15px;
+        padding: 0 20px;
     }
     .header-area .navbar .header-btn-wrap .primary-btn {
         min-width: 200px;
@@ -190,13 +201,9 @@
     }
     .banner-area .banner-content ul li {
         font-size: 20px;
-        padding-right: 30px;
     }
     .banner-area .banner-content ul li img {
         top: 9px;
-    }
-    .banner-area .banner-content ul li:not(:last-child) {
-        margin-bottom: 5px;
     }
     .primary-btn {
         padding: 12px 35px;
@@ -228,6 +235,19 @@
     }
     .header-area .navbar .navbar-nav .nav-item {
        color: #fff;
+    }
+    .progress-area {
+        padding-bottom: 80px;
+    }
+
+    .banner-area {
+        padding: 120px 0 40px;
+    }
+    .banner-area .banner-content h1 {
+        margin-right: -5px;
+    }
+    .contact-area {
+        padding: 80px 0 40px;
     }
 }
 
@@ -267,6 +287,12 @@
     .featured-inner .featured-thumb .social-wrap {
         position: initial;
     }
+    .progress-area:before {
+        display: none;
+    }
+    .progress-area .sms-box {
+        margin: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -288,6 +314,10 @@
     }
     .banner-area .banner-thumb .float-text2 {
         left: 48%;
+    }
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 

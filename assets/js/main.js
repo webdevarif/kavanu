@@ -2,6 +2,13 @@
 (function($) {
     $(document).ready(function() {
 
+		/*-------------------------------------------------------------------------------
+        Javascript for preloader
+        -------------------------------------------------------------------------------*/
+        $(window).on("load", function(){
+            $(".preloader").fadeOut();
+        })
+		
         /*-------------------------------------------------------------------------------
         javaScript for sticky header
         -------------------------------------------------------------------------------*/
@@ -34,7 +41,7 @@
 							color: '#14BB05'
 						}
 					}).on('circle-animation-progress', function (event, progress, stepValue) {
-						$(this).find('div').text((stepValue*100).toFixed(0) + "%");
+						// $(this).find('div').text((stepValue*100).toFixed(0) + "%");
 					}).stop();
 				}
 			});

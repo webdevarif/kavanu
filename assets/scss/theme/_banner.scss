@@ -2,7 +2,7 @@
 ============================================================================================ */
 .banner-area {
     position: relative;
-    padding: 55px 0 0;
+    padding: 60px 0 0;
     z-index: 2;
     overflow: hidden;
     .banner-shape1 {
@@ -45,6 +45,7 @@
             margin-bottom: 15px;
             font-family: 'Calibri';
             line-height: 1;
+            margin-right: -15px;
             span {
               color: $primary-color;
             }

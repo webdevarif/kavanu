@@ -144,3 +144,7 @@ img {
     height: auto;
 }
 
+
+[type=email], [type=number], [type=tel], [type=url] {
+    direction: rtl;
+}

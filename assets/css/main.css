@@ -118,6 +118,26 @@ img {
   max-width: 100%;
   height: auto; }
 
+[type=email], [type=number], [type=tel], [type=url] {
+  direction: rtl; }
+
+/* preloader Area css
+============================================================================================ */
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  z-index: 99999; }
+  .preloader img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
 /* Main Title Area css
 ============================================================================================ */
 .section-title {
@@ -352,7 +372,7 @@ img {
 ============================================================================================ */
 .banner-area {
   position: relative;
-  padding: 55px 0 0;
+  padding: 60px 0 0;
   z-index: 2;
   overflow: hidden; }
   .banner-area .banner-shape1 {
@@ -386,7 +406,8 @@ img {
     color: #C764EE;
     margin-bottom: 15px;
     font-family: 'Calibri';
-    line-height: 1; }
+    line-height: 1;
+    margin-right: -15px; }
     .banner-area .banner-content h1 span {
       color: #BB17FC; }
   .banner-area .banner-content ul {
